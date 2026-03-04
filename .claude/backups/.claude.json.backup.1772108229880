@@ -1,0 +1,133 @@
+{
+  "cachedStatsigGates": {
+    "tengu_prompt_suggestion": true,
+    "tengu_vscode_review_upsell": false,
+    "tengu_year_end_2025_campaign_promo": false
+  },
+  "cachedDynamicConfigs": {
+    "tengu_1p_event_batch_config": {
+      "scheduledDelayMillis": 5000,
+      "maxExportBatchSize": 200,
+      "maxQueueSize": 8192
+    }
+  },
+  "cachedGrowthBookFeatures": {
+    "tengu_mcp_tool_search": true,
+    "tengu_disable_bypass_permissions_mode": false,
+    "strawberry_granite_flag": "OFF",
+    "persimmon_marble_flag": "marble",
+    "tengu_tool_pear": false,
+    "tengu_thinkback": false,
+    "tengu_ant_attribution_header_new": true,
+    "tengu_c4w_usage_limit_notifications_enabled": true,
+    "tengu_tool_result_persistence": false,
+    "tengu_scratch": false,
+    "tengu_1p_event_batch_config": {
+      "scheduledDelayMillis": 5000,
+      "maxExportBatchSize": 200,
+      "maxQueueSize": 8192
+    },
+    "tengu_event_sampling_config": {},
+    "tengu_log_segment_events": false,
+    "tengu_log_datadog_events": true,
+    "tengu_marble_anvil": true,
+    "tengu_scarf_coffee": false,
+    "tengu_keybinding_customization_release": true,
+    "tengu_penguins_enabled": true,
+    "tengu_oboe": true,
+    "tengu_chomp_inflection": true,
+    "tengu_penguins_off": null,
+    "tengu_copper_lantern": false,
+    "tengu_pid_based_version_locking": true,
+    "tengu_vscode_review_upsell": false,
+    "tengu_tool_search_unsupported_models": [
+      "haiku"
+    ],
+    "tengu_vscode_onboarding": false,
+    "tengu_quiet_fern": true,
+    "tengu_system_prompt_global_cache": true,
+    "tengu_attribution_header": true,
+    "enhanced_telemetry_beta": false,
+    "tengu_plan_mode_interview_phase": false,
+    "tengu_fgts": false,
+    "tengu_vinteuil_phrase": true,
+    "tengu_cache_plum_violet": true,
+    "tengu_streaming_tool_execution2": true,
+    "tengu_prompt_cache_1h_config": {
+      "allowlist": [
+        "repl_main_thread*",
+        "sdk"
+      ]
+    },
+    "tengu_claudeai_mcp_connectors": true,
+    "tengu_marble_lantern_disabled": false,
+    "tengu_tst_names_in_messages": false,
+    "tengu_cork_m4q": true,
+    "tengu_bergotte_lantern": false,
+    "tengu_mulberry_fog": false,
+    "tengu_coral_fern": false,
+    "tengu_slate_nexus": true,
+    "tengu_marble_sandcastle": true,
+    "tengu_pebble_leaf_prune": false,
+    "tengu_swann_brevity": "control",
+    "tengu_moth_copse": false,
+    "tengu_oak_drum": false
+  },
+  "userID": "f75f48fd280f7cc04d9be76903f463e05811da9c523fe145ea71935b7f4772ca",
+  "firstStartTime": "2025-12-22T19:25:07.994Z",
+  "sonnet45MigrationComplete": true,
+  "opus45MigrationComplete": true,
+  "thinkingMigrationComplete": true,
+  "githubRepoPaths": {
+    "dftti/preworkmac": [
+      "/Users/diego/Coding VSC"
+    ]
+  },
+  "oauthAccount": {
+    "accountUuid": "7189ff22-bafd-4231-b85a-e9b2811bfcce",
+    "emailAddress": "diegofortunatti.c@gmail.com",
+    "organizationUuid": "0e585d78-c41c-460c-970c-793535368e00",
+    "hasExtraUsageEnabled": false,
+    "displayName": "Diego",
+    "billingType": "stripe_subscription",
+    "accountCreatedAt": "2025-12-22T19:06:27.616736Z",
+    "subscriptionCreatedAt": "2025-12-22T19:11:02.533622Z"
+  },
+  "s1mAccessCache": {
+    "0e585d78-c41c-460c-970c-793535368e00": {
+      "hasAccess": false,
+      "timestamp": 1771324514335
+    }
+  },
+  "opusProMigrationComplete": true,
+  "opusProMigrationTimestamp": 1771324509286,
+  "penguinModeOrgEnabled": false,
+  "clientDataCache": {
+    "data": {},
+    "timestamp": 1771325189880
+  },
+  "projects": {
+    "/Users/diego": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": true,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false
+    },
+    "/Users/diego/.claude/worktrees/mystifying-bassi": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": true,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false
+    }
+  },
+  "sonnet1m45MigrationComplete": true,
+  "cachedExtraUsageDisabledReason": "org_level_disabled"
+}

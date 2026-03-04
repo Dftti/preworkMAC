@@ -1,0 +1,12 @@
+[
+  {
+    "content": "Instalar ffmpeg via Homebrew",
+    "status": "in_progress",
+    "activeForm": "Instalando ffmpeg via Homebrew"
+  },
+  {
+    "content": "Crear proyecto Remotion en ~/Coding/remotion-studio",
+    "status": "pending",
+    "activeForm": "Creando proyecto Remotion en ~/Coding/remotion-studio"
+  }
+]

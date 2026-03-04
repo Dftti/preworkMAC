@@ -1,0 +1,27 @@
+[
+  {
+    "content": "Resolver problema de 2FA en Facebook",
+    "status": "in_progress",
+    "activeForm": "Resolviendo problema de 2FA"
+  },
+  {
+    "content": "Actualizar selectores en scraper",
+    "status": "pending",
+    "activeForm": "Actualizando selectores"
+  },
+  {
+    "content": "Probar scraper mejorado",
+    "status": "pending",
+    "activeForm": "Probando scraper mejorado"
+  },
+  {
+    "content": "Extraer vendedores reales",
+    "status": "pending",
+    "activeForm": "Extrayendo vendedores reales"
+  },
+  {
+    "content": "Probar envío de mensajes",
+    "status": "pending",
+    "activeForm": "Probando envío de mensajes"
+  }
+]
