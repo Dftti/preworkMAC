@@ -128,8 +128,8 @@ Según investigación científica (Frontiers in Psychology, 2024):
 
 ## PARTE 3 — INTELIGENCIA COMPETITIVA
 
-### 3.1 Plant.me (principal competidor Chile)
-- **Seguidores Instagram:** 178K (vs Plantastole: en crecimiento)
+### 3.1 Plant.me (competidor Chile — volumen alto)
+- **Seguidores Instagram:** 178K
 - **Posicionamiento:** "El primer Garden Delivery de Chile"
 - **Ubicación:** General O'Brien 2244, Vitacura (misma zona)
 - **Diferencial declarado:** Logística propia, 100% garantía de reemplazo, asesoría continua
@@ -142,7 +142,28 @@ Según investigación científica (Frontiers in Psychology, 2024):
 - Diego en cámara = cara humana y cercana; Plant.me es más corporativo
 - El contenido educativo de Plantastole puede ser mucho más profundo y genuino
 
-### 3.2 Lively Root (referente USA)
+---
+
+### 3.2 Kenaz (competidor Chile — volumen medio, fuerte en redes)
+- **Seguidores Instagram:** 98K (@kenaz.cl)
+- **Web:** kenaz.cl (Shopify)
+- **Ubicaciones físicas:** Las Condes (Latadía 4243) + Padre Hurtado + Showroom Vitacura (Isabel Montt 2914)
+- **Envío:** Santiago mismo día disponible / 2–5 días RM / 3–6 días regiones / todo Chile
+- **Modelo de precio:** Descuentos frecuentes y agresivos (18–60% off en catálogo), hasta 6 cuotas sin interés
+- **Servicios:** Asesoría online, mantención a domicilio, pickup en tienda
+- **Colecciones:** Pet friendly, poca luz, oficina, fácil cuidado, XL
+- **Lo que hacen bien:** Logística robusta, múltiples puntos de retiro, variedad de categorías
+- **Lo que NO tienen:** Garantía explícita destacada, historia de origen auténtica, cara humana consistente en cámara
+
+**Oportunidad de Plantastole vs Kenaz:**
+- Kenaz pelea en **precio** (descuentos permanentes) → Plantastole juega en **valor** (calidad garantizada)
+- Los descuentos frecuentes de Kenaz dañan la percepción de calidad (ver principio Rory Sutherland, Parte 11)
+- Kenaz tiene escala pero no tiene el storytelling de Felipe ni la selección uno a uno
+- El cliente ABC1 que busca "la mejor planta" no quiere 50% off — quiere certeza
+
+---
+
+### 3.3 Lively Root (referente USA)
 - **Rating:** 4.2/5 en Knoji, mixto en Trustpilot
 - **Diferencial:** Plantas certificadas pet-safe, categorías por espacio
 - **Garantía:** 30-Day Happiness Guarantee
@@ -153,7 +174,7 @@ Según investigación científica (Frontiers in Psychology, 2024):
   - No incluyen macetero — el cliente tiene que comprar por separado
   - Precio percibido como alto sin justificación de valor
 
-### 3.3 Bloomscape (referente USA)
+### 3.4 Bloomscape (referente USA)
 - **Lo que hacen bien:** Sí incluyen macetero, contenido de cuidado en web, equipo de customer experience activo
 - **Sus puntos débiles:**
   - Plantas pequeñas vs expectativa de la foto
@@ -161,18 +182,45 @@ Según investigación científica (Frontiers in Psychology, 2024):
   - Precio alto vs viveros locales
   - Poca durabilidad post-despacho
 
-### 3.4 Tabla de Diferenciación
+---
 
-| Factor | Plant.me | Lively Root | Bloomscape | **Plantastole** |
-|---|---|---|---|---|
-| Historia/autenticidad | Corporativa | Comercial | Comercial | ✅ 3ra generación vivero |
-| Cara humana en contenido | No | No | No | ✅ Diego en cámara |
-| Selección curada | Amplia | Amplia | Amplia | ✅ Uno a uno |
-| Garantía clara | 100% reemplazo | 30 días | Sí | ✅ 14 días |
-| Contenido educativo | Básico | Básico | Sí | 🔨 A desarrollar |
-| Macetero incluido | Opcional | No | Sí | Opcional |
-| Despacho confiable | Sí (logística propia) | Regular | Regular | ✅ Propio |
-| Pet friendly | Sí | Sí | No destacado | ✅ Colección |
+### 3.5 Vitali+ / Vitalimas (referente de contenido — NO competidor directo)
+- **Instagram:** @vitalimas.cl
+- **Web:** vitalimas.cl
+- **Qué venden:** Fertilizantes, bioestimulantes, sustratos y accesorios para el cuidado de plantas (NO plantas)
+- **Garantía:** "Si no ves hojas más verdes y vigorosas, te devolvemos el 100%" — garantía de resultado muy clara
+- **Precio referencia:** Súper Pack $109.990
+- **Canales:** Instagram + Facebook + YouTube + TikTok (presencia multicanal fuerte)
+- **Lo que hacen muy bien:**
+  - Blog activo con contenido educativo
+  - "Clínica de Plantas" (evento educativo presencial/online)
+  - Guías de uso incluidas en cada compra
+  - Preguntas frecuentes bien desarrolladas
+  - Contenido de urgencia ("Quedan muy pocas unidades a este precio")
+
+**Por qué es relevante para Plantastole:**
+- No son competencia — son **complemento y referente de contenido**
+- Vitalimas demuestra que el cliente de plantas chileno CONSUME contenido educativo sobre cuidado
+- Su "Clínica de Plantas" es un formato que Plantastole podría replicar (taller presencial en tienda Vitacura)
+- La garantía de resultado de Vitalimas es más audaz que la de Plantastole → referencia para reformular la garantía propia
+- Posible oportunidad de **colaboración**: Plantastole vende la planta, Vitalimas vende el fertilizante → audiencias que se complementan
+
+---
+
+### 3.6 Tabla de Diferenciación
+
+| Factor | Plant.me | Kenaz | Lively Root | Bloomscape | **Plantastole** |
+|---|---|---|---|---|---|
+| Historia/autenticidad | Corporativa | Sin historia | Comercial | Comercial | ✅ 3ra generación vivero |
+| Cara humana en contenido | No | Ocasional | No | No | ✅ Diego en cámara |
+| Selección curada | Amplia | Amplia | Amplia | Amplia | ✅ Uno a uno |
+| Garantía clara | 100% reemplazo | No destacada | 30 días | Sí | ✅ 14 días reemplazo |
+| Contenido educativo | Básico | Básico | Básico | Sí | 🔨 A desarrollar |
+| Modelo de precio | Premium | Descuentos frecuentes | Premium | Premium | ✅ Valor > precio |
+| Despacho confiable | ✅ Logística propia | ✅ Mismo día | Regular | Regular | ✅ Propio |
+| Pet friendly | Sí | Sí | Sí | No destacado | ✅ Colección |
+| Presencia física | Vitacura | 3 locales | No | No | ✅ Tabancura 1610 |
+| Storytelling de origen | No | No | No | No | ✅ Felipe + vivero |
 
 ---
 
@@ -451,10 +499,11 @@ y te explicamos cómo cuidarla para que te resulte.
 - **TikTok:** Buscar "plantas interior chile" / "cuidado plantas" para ver qué hooks funcionan
 
 ### Competencia activa a monitorear
-- @plantme.cl (Instagram) — qué posts tienen más engagement
+- @plantme.cl — qué posts tienen más engagement (178K, principal competidor volumen)
+- @kenaz.cl — descuentos activos, colecciones nuevas, formato de reels (98K)
+- @vitalimas.cl — **referente de contenido educativo** (fertilizantes/cuidado, no plantas) — observar formatos, Clínica de Plantas, hooks
 - @theplantstore.cl — contenido, precios, novedades
-- @kenaz.cl — estrategia de contenido
-- @camilaylavanda — tono y estilo
+- @camilaylavanda — tono y estilo lifestyle
 
 ### Señales de qué grabar esta semana
 - ¿Cambió la estación? → Contenido de cuidado estacional
