@@ -1,17 +1,146 @@
+---
+name: plantastole-marketing
+description: |
+  Skill de marketing para Plantastole (plantastole.cl) — tienda boutique de plantas de interior y exterior,
+  Vitacura, Chile. Cargar SIEMPRE antes de crear cualquier contenido para Plantastole.
+  Usar para: captions de Instagram, copy de Meta Ads, guiones de Reels/TikTok, descripciones de producto
+  Shopify, landings de conversión, emails Klaviyo, contenido de blog, análisis de competidores,
+  planificación de contenido mensual, urgency copy, testimoniales, video ad briefs.
+  Trigger phrases: "crea un caption", "escribe el copy del ad", "guión del reel", "descripción del producto",
+  "landing de kentia", "post para instagram", "anuncio de meta", "texto del email", "plantastole".
+argument_hint: |
+  Antes de iniciar, confirmar:
+  • Tipo de contenido: reel | meta ad | caption | landing | descripción producto | email | blog | urgency
+  • Producto/planta específica (nombre, precio, talla, características clave)
+  • Avatar objetivo: Decoradora Consciente | Regalador Premium | Principiante (default: Decoradora)
+  • Destino: Instagram feed | Stories | Meta Ads | Shopify | WhatsApp | Email
+  • ¿Hay referencia, brief o restricción específica?
+  • Tono: default = cercano + aspiracional + concreto (ajustar si es urgency o educativo)
+---
+
 # Plantastole — Guía Maestra de Marketing
 
-> Guía viva de estrategia, contenido y creativos para Diego.
+> Skill vivo de estrategia, contenido y creativos para Diego.
 > Se actualiza con cada sesión. Última actualización: Marzo 2026.
+
+---
+
+## REGLAS DE ORO — RESUMEN EJECUTIVO
+
+> Leer PRIMERO. Estas reglas resumen los 12 capítulos. Son no-negociables.
+
+### Identidad Visual
+- **Verde principal:** `#1B321B` (sitio, marca, texto oscuro)
+- **Dorado:** `#D3A150` (blogs, CTAs premium, tip boxes, bordes)
+- **Durazno:** `#F6CFB2` (botones Shopify — color exacto de todos los CTAs)
+- **Crema:** `#FAF7F4` (fondos suaves)
+- **Tipografías:** `Playfair Display` (headings) · `Lato` (body)
+
+### Reglas de Copy No-Negociables
+- ❌ NO: "vivero de 3ra generación" (información contextual, no para copy de cara al cliente)
+- ❌ NO: precios sin contexto de valor ("$80.000" solo → "desde $80.000, con garantía incluida")
+- ❌ NO: promesas vagas ("la mejor planta", "alta calidad")
+- ❌ NO: CTA que envíe directo a WhatsApp desde un ad (landing primero, WhatsApp secundario en la landing)
+- ✅ SÍ: números concretos (190 cm, 2–4 días, $120.000 envío gratis)
+- ✅ SÍ: emoción primero → beneficio → prueba → CTA
+- ✅ SÍ: voz del cliente como espejo (frases que el cliente ya piensa — ver Parte 2)
+- ✅ SÍ: certeza sobre el despacho (algo vivo = más ansiedad que un objeto)
+
+### Avatar Principal: "La Decoradora Consciente"
+Mujer 30–45, ABC1, Santiago oriente. Miedo #1: matar la planta / que llegue fea o pequeña. Deseo #1: espacio que la haga sentir orgullosa cuando llegan visitas. No compra planta — compra **transformación del espacio + identidad + tranquilidad**.
+
+### Arquitectura de Conversión
+- **Ad → `/products/[planta]-ads`** (producto duplicado con template `product.landing`)
+- **Landing** = hero + beneficios + galería + testimoniales + garantía + urgencia + CTA
+- **WhatsApp** = CTA secundario dentro de la landing (no desde el ad)
+- **Urgencia** = círculo amarillo `#FFC200` pulsante + "Alta demanda — stock limitado"
+
+---
+
+## FLUJOS DE TRABAJO (ENCODED PREFERENCES)
+
+> Instrucciones paso a paso para los contenidos más frecuentes.
+> Cada flujo referencia las secciones relevantes de esta guía para profundizar.
+
+### FLUJO A — Caption de Instagram
+**Usar cuando:** Post de producto, reel publicado, behind-the-scenes, educativo, testimonial.
+
+1. **Identificar avatar y emoción dominante** → Parte 1 (Avatar) + Parte 2 (Voz del Cliente)
+2. **Elegir hook** → Parte 7 (Banco de Hooks) — NUNCA empezar con el nombre de la planta
+3. **Cuerpo (3 oraciones máx):** emoción → beneficio concreto → prueba social o garantía
+4. **CTA:** una sola acción, fricción mínima ("Encuéntrala en plantastole.cl" / "Link en bio")
+5. **Emojis:** 1–3 máximo, al final de línea, nunca en medio de frase
+6. **Hashtags:** 5–8 específicos (no #plantas genérico) → Parte 8.3
+
+**Output:** 3–5 líneas de caption + 5–8 hashtags. No exceder 120 palabras en el caption.
+
+---
+
+### FLUJO B — Copy de Meta Ad (imagen o video)
+**Usar cuando:** Crear anuncio para Facebook/Instagram Ads Manager.
+
+1. **Definir objetivo:** Awareness | Consideration | Conversion (define el tono y la agresividad del CTA)
+2. **Hook visual** (texto overlay o primer frame): máx 5 palabras → Parte 7 (Banco de Hooks)
+3. **Headline:** beneficio específico + número concreto (ej: "190 cm de verde real")
+4. **Primary Text** (estructura): miedo del cliente → solución Plantastole → prueba social → garantía → CTA
+5. **Destino del link:** `/products/[planta]-ads` (NUNCA WhatsApp directo desde ad)
+6. **Urgencia si aplica:** stock limitado, envío gratis sobre $120.000
+7. **Revisar vs errores frecuentes** → Parte 12.5 (tabla de errores y fixes)
+
+**Output:** Hook (5 pal.) + Headline (6–10 pal.) + Primary Text (máx 125 palabras) + texto del botón CTA.
+
+---
+
+### FLUJO C — Guión de Reel (12–60 segundos)
+**Usar cuando:** Video de producto, unboxing, educativo, comparativa, trending audio, ad sin voz.
+
+1. **Formato:** sin voz (texto overlay) | con voz en off | trending audio (elegir antes de escribir)
+2. **Hook (0–3s):** pregunta disruptiva O cifra sorprendente O situación reconocible → Parte 7
+3. **Desarrollo (3–50s):** demostración visual + texto overlay (máx 6 palabras/frame)
+4. **Cierre (últimos 3s):** CTA único — una sola acción posible (no dar opciones)
+5. **Para ads sin voz (12s):** máx 3 frames, texto oversized en color marca, sin subtítulos necesarios
+6. **Caption del reel:** aplicar Flujo A completo
+
+**Output:** Frame-by-frame con timecode, texto overlay, indicaciones visuales + caption + hashtags.
+
+---
+
+### FLUJO D — Descripción de Producto Shopify
+**Usar cuando:** Nuevo producto, optimizar ficha existente, producto duplicado para ads.
+
+1. **Título Shopify:** Nombre Planta + Talla/variante (ej: "Kentia — Talla L")
+2. **Primer párrafo (2 líneas):** beneficio emocional — NO empezar con "La [planta] es una especie..."
+3. **Bullets (4–6):** altura, nivel de luz, pet-friendly, frecuencia de riego, tiempo de entrega RM
+4. **Sección garantía:** garantía de satisfacción + días hábiles de entrega
+5. **Tags Shopify:** asignar colección relevante (poca luz / pet friendly / XL / fácil cuidado / regalo)
+6. **Metafields a completar:** `custom.landing_page` (referencia a página HTML), `custom.altura`
+
+**Output:** Título + párrafo intro + 4–6 bullets + sección garantía. Máx 200 palabras totales.
+
+---
+
+### FLUJO E — Liquid/HTML para Shopify (urgencia, landing content)
+**Usar cuando:** Código para theme editor, page.content block, sección de producto.
+
+1. **Contexto de tema:** Dawn theme, `1rem = 10px` (base 62.5%). Usar px con `!important` siempre.
+2. **Breakout CSS:** `width: 100vw; margin-left: calc(50% - 50vw); overflow-x: hidden;`
+3. **Urgencia Liquid:** punto pulsante `#FFC200`, `animation: lp-pulse 1.8s ease-in-out infinite` (box-shadow)
+4. **Producto en template page:** usar `{% assign product = page.metafields.custom.producto_destacado.value %}`
+5. **Condicional de stock:** `{% if variant.available %}` para mostrar urgencia
+6. **Archivos de referencia:** `kentia-page-content.html` (canónico) + `kentia-landing.html` (preview)
+
+**Output:** Código HTML/Liquid/CSS comentado, listo para copiar en Shopify.
 
 ---
 
 ## CÓMO USAR ESTA GUÍA
 
-- **Antes de crear contenido:** Lee la sección de Avatar y Voz del Cliente
-- **Para videos/reels:** Ve directo a Banco de Hooks y Estructuras de Video
-- **Para ads:** Sección Meta Ads Framework
-- **Para planificación:** Calendario de Contenidos
-- **Para copy en general:** Reglas de Comunicación + Frases que Convierten
+- **Para contenido inmediato:** Ir directo al Flujo correspondiente (A–E) arriba
+- **Para profundizar en el cliente:** Parte 1 (Avatares) + Parte 2 (Voz del Cliente)
+- **Para videos/reels:** Parte 7 (Banco de Hooks) + Parte 8 (Estructuras de Video)
+- **Para ads Meta:** Parte 9 (Meta Ads Framework) + Parte 12 (Kentia Landing)
+- **Para planificación:** Parte 10 (Calendario de Contenidos)
+- **Para copy en general:** Parte 5 (Reglas de Comunicación) + Parte 6 (Frases que Convierten)
 
 ---
 
