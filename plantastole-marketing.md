@@ -796,6 +796,192 @@ Los videos referentes usan estructuras de título/hook que funcionan directament
 
 ---
 
+## PARTE 12 — LANDING PAGES & CRO
+
+### 12.1 Reglas de Copy — Siempre
+
+- ❌ **No usar "vivero de 3ra generación" en copy de cara al cliente** — es contexto interno, no beneficio percibido
+- ✅ Vender el espacio transformado, no la planta
+- ✅ Testimonios con nombre + comuna (ej: *Valentina R., Las Condes*) — sin esto no hay credibilidad
+- ✅ Garantía siempre concreta: "Si llega en mal estado, la reponemos o te devolvemos el dinero"
+- ✅ Urgencia sin alarmismo: círculo amarillo pulsante (#FFC200), no rojo
+
+---
+
+### 12.2 Arquitectura de Landing — Decisiones Tomadas
+
+**Estructura elegida:** Producto duplicado para ads + template `product.landing`
+
+```
+/products/kentia          → página orgánica / SEO (no tocar)
+/products/kentia-ads      → landing exclusiva para tráfico pagado
+  └── template: product.landing
+  └── metafield: custom.landing_page → página con HTML del contenido
+```
+
+**Por qué producto y no página:**
+- Galería de imágenes completa nativa
+- `product` en scope total (metafields, altura, variantes)
+- URL más limpia para ads
+- Shopify maneja carrito, variantes y stock sin workarounds
+
+**Metafield de página para HTML:**
+- Tipo: Referencia a página
+- Clave: `custom.landing_page`
+- El HTML vive en `/pages/kentia-planta-grande-de-interior`
+- En template Liquid: `{{ product.metafields.custom.landing_page.value.content }}`
+
+---
+
+### 12.3 Orden de Secciones — Landing de Alta Conversión
+
+```
+1. HERO (producto nativo Shopify)
+   ├── Subtítulo beneficio bajo el título
+   ├── Altura + maceta plástica
+   ├── 🟡 Círculo pulsante "Alta demanda — stock limitado"
+   ├── Precio
+   ├── Selector de talla
+   └── Botón comprar
+
+2. TRUST BADGES
+   ├── RM: 2–3 días hábiles (no "1 a 4")
+   ├── Garantía de devolución
+   ├── Seleccionadas una por una
+   └── Guía de cuidado incluida
+
+3. SOCIAL PROOF — Fotos en casas reales
+   └── Caption = cita + nombre + comuna
+
+4. GUÍA DE TALLAS
+   └── Tabla M vs L + nota de variación ±10cm
+
+5. BONOS INCLUIDOS (sección verde)
+   ├── Guía de cuidado al mail
+   ├── Despacho 2 días hábiles
+   └── Garantía de satisfacción
+
+6. GARANTÍA DESTACADA (borde dorado)
+
+7. CTA FINAL
+   ├── Botón primario → scroll arriba al producto
+   └── Botón secundario → WhatsApp (NUNCA Instagram)
+```
+
+---
+
+### 12.4 Diagnóstico CRO — Errores Frecuentes a Evitar
+
+| Error | Impacto | Fix |
+|---|---|---|
+| Imagen hero en exterior | Alto — disonancia con "planta de interior" | Hero = Kentia en living real |
+| Precio sin contexto | Alto — $279K asusta en frío | Línea bajo precio con beneficios incluidos |
+| CTA manda a Instagram | Crítico — killer de conversión | Siempre WhatsApp |
+| Testimonios sin nombre | Medio — no credibles | Nombre + comuna obligatorio |
+| "1 a 4 días hábiles" | Medio — genera incertidumbre | "RM: 2–3 días hábiles" |
+| Cero urgencia | Medio — no hay razón para comprar hoy | Círculo pulsante + "Alta demanda" |
+
+---
+
+### 12.5 Elemento de Urgencia — Liquid
+
+Bloque "Liquid personalizado" en sección "Producto destacado", arrastrarlo bajo el título y sobre el precio:
+
+```liquid
+<style>
+  .lp-urgency {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin: 8px 0 16px;
+  }
+  .lp-urgency__dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #FFC200;
+    flex-shrink: 0;
+    animation: lp-pulse 1.8s ease-in-out infinite;
+  }
+  @keyframes lp-pulse {
+    0%   { box-shadow: 0 0 0 0 rgba(255,194,0,0.7); opacity: 1; }
+    60%  { box-shadow: 0 0 0 8px rgba(255,194,0,0); opacity: 0.85; }
+    100% { box-shadow: 0 0 0 0 rgba(255,194,0,0); opacity: 1; }
+  }
+  .lp-urgency__text {
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: #B38A00;
+    letter-spacing: 0.3px;
+  }
+</style>
+
+{% assign variant = product.selected_or_first_available_variant %}
+{% if variant.available %}
+  <div class="lp-urgency">
+    <span class="lp-urgency__dot"></span>
+    <span class="lp-urgency__text">Alta demanda — stock limitado</span>
+  </div>
+{% endif %}
+```
+
+---
+
+### 12.6 Ad Kentia — Video Viral (12 segundos)
+
+**Decisión:** Sin voz. El video fue viral con solo música + video → no romper lo que funcionó. Solo overlays de texto.
+
+**Estructura:**
+```
+0–2s   → HOOK TEXT overlay (centrado, grande)
+2–9s   → video solo + 1 overlay de beneficio
+9–12s  → frame final: logo + URL + oferta
+```
+
+**Opciones de hook (probar en orden):**
+1. `¿Cuánto mide esto?` — curiosidad extrema
+2. `Así llega una Kentia de Plantastole` — unboxing/expectativa
+3. `La planta que transforma cualquier rincón` — beneficio directo
+
+**Overlay del medio (2–9s):**
+```
+Talla L: hasta 190 cm
+Llega a tu puerta en 2–4 días
+```
+
+**Frame final (9–12s):**
+```
+[Logo Plantastole]
+plantastole.cl
+Envío incluido sobre $120.000
+```
+
+**Caption del ad:**
+```
+La Kentia que todos nos preguntan. 🌿
+
+Talla L: hasta 190 cm de altura.
+Llega protegida a tu puerta en 2–4 días hábiles.
+Incluye guía de cuidado + garantía de satisfacción.
+
+→ plantastole.cl/products/kentia
+```
+
+**Destino del ad:** `/products/kentia-ads` (producto duplicado con template landing)
+
+---
+
+### 12.7 Archivos de Referencia
+
+| Archivo | Descripción |
+|---|---|
+| `kentia-page-content.html` | HTML completo del `page.content` de Shopify. Breakout CSS + tipografías en px (tema usa 1rem=10px) |
+| `kentia-landing.html` | Versión standalone para preview local |
+| `.claude/launch.json` | Servidor preview local: `python3 -m http.server 8080` |
+
+---
+
 ## PARTE 13 — PREGUNTAS PARA PRÓXIMAS SESIONES
 
 > Estas secciones se enriquecen con cada conversación:
